@@ -27,6 +27,7 @@ function App() {
         setUserName(name);
       } catch (error) {
         console.error("Error fetching user data:", error);
+        setUserName("Guest");  // Default to "Guest" if no authenticated user is found
       }
     };
 
@@ -59,6 +60,9 @@ function App() {
       alert("Error updating name. Please check the console for details.");
       if (error && error.message) {
         alert("Detailed Error: " + error.message); // Show detailed error message
+      }
+      if (error && error.response) {
+        console.log("Error Response:", error.response);  // Log the error response for further debugging
       }
     }
   };

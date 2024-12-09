@@ -42,7 +42,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-eventplanner-dev-5c65a-deployment/amplify-cfn-templates/auth/eventplannerfde2bf35-cloudformation-template.json",
         "logicalId": "autheventplannerfde2bf35"
       },
-      "lastPushTimeStamp": "2024-12-08T16:25:59.592Z",
+      "lastPushTimeStamp": "2024-12-08T23:24:52.261Z",
       "output": {
         "UserPoolId": "us-east-1_a5m8bBQZb",
         "AppClientIDWeb": "oimfimgjsq9jnga88mqjjreeb",
